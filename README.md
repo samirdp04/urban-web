@@ -15,6 +15,8 @@ Capturas de Pantalla:
 
 ![Captura de pantalla 2024-02-27 161219](https://github.com/samirdp04/urban-web/assets/151089691/7e694ede-c3e0-4843-876a-14f60df6dd65)
 ![Captura de pantalla 2024-02-27 161342](https://github.com/samirdp04/urban-web/assets/151089691/375cf5dd-8dc4-45a1-ac90-be048609b2b7)
+![Captura de pantalla 2024-02-27 170103](https://github.com/samirdp04/urban-web/assets/151089691/7fb2ba44-4cd2-4dcf-af7d-8a6f15e692c3)
+
 
 Instalación y Uso:
 
