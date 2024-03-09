@@ -24,9 +24,9 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Dama</a></li>
-                    <li><a href="#">Caballero</a></li>
-                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#lista-1">Productos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <div>
@@ -184,7 +184,7 @@
     </section>
 
     <section class="blog container">
-        <div class="blog-1">
+        <div class="blog-1" id="blog">
             <img src="images/b1.jpg" alt="">
             <h3>Blog 1</h3>
             <p>
@@ -221,30 +221,15 @@
                         <label for="email">Correo Electronico<span> * </span></label>
                         <input type="email" type="text" id="email">
                     </div>
-                    <div class="select-menu">
-                        <div class="select-btn">
-                            <span class="sBtn-text">Selecciona tu producto</span>
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <ul class="options">
-                            <li class="option">
-                                <i class="fa-solid fa-shirt" style="color: #111;"></i>
-                                <span class="option-text">Ropa masculina</span>
-                            </li>
-                            <li class="option">
-                                <i class="fa-solid fa-person-dress" style="color: #111;"></i>
-                                <span class="option-text">Ropa femenina</span>
-                            </li>
-                            <li class="option">
-                                <span class="material-symbols-outlined" style="color: #111;">podiatry</span>
-                                <span class="option-text">Calzado</span>
-                            </li>
-                            <li class="option">
-                                <i class="fa-solid fa-bag-shopping" style="color: #111;"></i>
-                                <span class="option-text">Acesorios</span>
-                            </li>
-                        </ul>
-                    </div>     
+                    <div class="form-row">
+                        <label for="opciones">Selecciona una opción:</label>
+                            <select class="options" id="opciones" name="opciones" required>
+                                <option value="" disabled selected>Elige una opción</option>
+                                <option class="option" value="opcion1">Ropa masculina</option>
+                                <option class="option" value="opcion2">Ropa femenina</option>
+                                <option class="option" value="opcion3">Acesorios</option>
+                            </select>
+                    </div>    
                     <button type="submit" class="btn"> Enviar 
                     </button>
                     <p class="warnings" id="warnings"></p>
